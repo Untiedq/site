@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://avdex.pro/sitemap.xml
-
+Sitemap: https://untiedq.github.io/site/sitemap.xml
