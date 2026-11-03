@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://avdex.pro/sitemap.xml
+
