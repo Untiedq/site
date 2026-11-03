@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>АвтоЭмаль — автоэмали и материалы для кузовного ремонта</title>
+  <meta name="description" content="Магазин автоэмалей и расходных материалов для кузовного ремонта: эмали, лаки, грунты, шпатлёвки, абразивы, инструмент. Профессиональный подбор цвета.">
+  <meta property="og:title" content="АвтоЭмаль — материалы для кузовного ремонта">
+  <meta property="og:description" content="Автоэмали, лаки, грунты и расходные материалы для профессионального кузовного ремонта.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23ff6b1a'/%3E%3Cpath d='M50 20l25 25a25 25 0 1 1-50 0z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">АВТО<span>ЭМАЛЬ</span></a>
+      <button class="menu-toggle" aria-label="Меню" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button>
+      <nav class="nav">
+        <a href="#products">Продукция</a>
+        <a href="#about">О магазине</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Автоэмали и материалы для <span>кузовного ремонта</span></h1>
+      <p>Всё необходимое для профессиональной покраски и восстановления кузова: эмали, лаки, грунты, абразивы и малярный инструмент. Поможем подобрать цвет и материалы под задачу.</p>
+      <a href="#contacts" class="btn">Связаться с нами</a>
+    </div>
+  </section>
+
+  <section class="section" id="products">
+    <div class="container">
+      <h2 class="section-title">Продукция</h2>
+      <p class="section-sub">Широкий ассортимент материалов от проверенных производителей для полного цикла кузовного ремонта.</p>
+
+      <div class="grid">
+        <div class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg></div>
+          <h3>Автомобильные эмали</h3>
+          <p>Базовые покрытия, металлик, перламутр, ксиралик. Готовые рецептуры и точный подбор цвета по коду автомобиля.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <h3>Лаки и защитные покрытия</h3>
+          <p>Акриловые и полиуретановые лаки, глянцевые и матовые финиши, керамические защиты и покрытия с эффектами.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></div>
+          <h3>Грунты и шпатлёвки</h3>
+          <p>Эпоксидные и акриловые грунты, шпатлёвки со стекловолокном и без, порозаполнители и антикоррозийные составы.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6v6l4 10H5L9 9V3z"/><line x1="9" y1="3" x2="15" y2="3"/></svg></div>
+          <h3>Растворители и разбавители</h3>
+          <p>Растворители, разбавители, обезжириватели и очистители для профессионального кузовного ремонта.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/></svg></div>
+          <h3>Абразивы и шлифматериалы</h3>
+          <p>Шлифовальные круги, листы, полоски и наждачная бумага. Зернистость от P60 до P2000 для любого этапа обработки.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+          <h3>Малярный инструмент</h3>
+          <p>Краскопульты, кисти, валики, ёмкости для смешивания, воронки, фильтры и прочий профессиональный инструмент.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/></svg></div>
+          <h3>Маскировочные материалы</h3>
+          <p>Малярные ленты, укрывные плёнки, бумага и защитные материалы для качественной подготовки поверхности.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.8L20 10l-6.1 1.2L12 17l-1.9-5.8L4 10l6.1-1.2L12 3z"/></svg></div>
+          <h3>Полировальные составы</h3>
+          <p>Полировальные пасты и круги, абразивные и защитные составы, финишная полировка и уход за ЛКП.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">О магазине</h2>
+      <p class="section-sub">Работаем с частными мастерами и профессиональными СТО. Помогаем подобрать материалы под задачу и бюджет.</p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Широкий ассортимент</h3>
+          <p>Всё для кузовного ремонта в одном месте — от базовых эмалей до полировальных составов.</p>
+        </div>
+        <div class="card">
+          <h3>Профессиональные консультации</h3>
+          <p>Поможем разобраться в материалах, совместимости и технологии нанесения.</p>
+        </div>
+        <div class="card">
+          <h3>Точный подбор цвета</h3>
+          <p>Подбор рецептур по коду автомобиля и колеровка эмалей под оригинальный цвет.</p>
+        </div>
+        <div class="card">
+          <h3>Работа с юрлицами</h3>
+          <p>Гибкие условия и документы для СТО, автомастерских и кузовных цехов.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contacts">
+    <div class="container">
+      <h2 class="section-title">Контакты</h2>
+      <p class="section-sub">Свяжитесь с нами удобным способом — ответим на вопросы и поможем с подбором.</p>
+
+      <div class="contacts-grid">
+        <div class="contact-item">
+          <div class="label">Телефон</div>
+          <div class="value"><a href="tel:+70000000000">+7 (___) ___-__-__</a></div>
+        </div>
+        <div class="contact-item">
+          <div class="label">Email</div>
+          <div class="value"><a href="mailto:info@example.pro">info@example.pro</a></div>
+        </div>
+        <div class="contact-item">
+          <div class="label">Адрес</div>
+          <div class="value">г. ________, ул. ________, д. __</div>
+        </div>
+        <div class="contact-item">
+          <div class="label">Режим работы</div>
+          <div class="value">Пн–Сб: 9:00–19:00<br>Вс: выходной</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-info">
+          <p><strong>ИП Фамилия Имя Отчество</strong></p>
+          <p>ОГРНИП: 000000000000000</p>
+          <p>ИНН: 000000000000</p>
+          <p>Адрес: г. ________, ул. ________, д. __</p>
+        </div>
+        <div class="footer-info">
+          <p>Телефон: +7 (___) ___-__-__</p>
+          <p>Email: info@example.pro</p>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <p>© 2026 АвтоЭмаль. Все права защищены.</p>
+        <p>Информация на сайте не является публичной офертой (ст. 437 ГК РФ).</p>
+        <p>0+</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
