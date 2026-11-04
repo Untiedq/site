@@ -210,3 +210,16 @@ body {
 .map-frame { min-height: 330px; background: #1c252e; }
 .map-frame iframe { display: block; width: 100%; height: 100%; min-height: 330px; border: 0; }
 @media (max-width: 768px) { .map-card { grid-template-columns: 1fr; } .map-copy { padding: 22px; } .map-frame, .map-frame iframe { min-height: 300px; } }
+
+.footer-legal a { color: var(--text-muted); text-decoration: underline; text-decoration-color: rgba(255,107,26,.5); text-underline-offset: 3px; }
+.footer-legal a:hover { color: var(--accent-hover); }
+.privacy-page { min-height: 100vh; background: var(--bg); color: var(--text); }
+.privacy-header { padding: 18px 0; background: rgba(15,20,25,.96); border-bottom: 1px solid var(--border); }
+.privacy-header .logo { width: fit-content; }
+.privacy-main { max-width: 900px; padding-top: 48px; padding-bottom: 80px; }
+.privacy-main h1 { margin: 16px 0 22px; font-size: clamp(32px,5vw,48px); line-height: 1.1; }
+.privacy-main h2 { margin: 30px 0 10px; font-size: 21px; }
+.privacy-main p, .privacy-main li { color: #c1c8cd; font-size: 14px; line-height: 1.8; }
+.privacy-warning { margin: 22px 0; padding: 16px 18px; border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; background: rgba(255,107,26,.1); color: #f0d4c4; font-size: 13px; line-height: 1.7; }
+.privacy-back { display: inline-block; color: var(--accent-hover); font-weight: 700; text-decoration: none; }
+.privacy-back:hover { text-decoration: underline; }
