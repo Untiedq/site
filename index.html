@@ -27,9 +27,9 @@
       <nav class="nav" id="main-nav" aria-label="Основная навигация">
         <a href="#products">Продукция</a>
         <a href="#about">О магазине</a>
-        <a href="#color-guide">Подбор цвета</a>
+        <a href="#products">Продукция</a>
         <a href="#contacts">Контакты</a>
-        <a href="#color-guide">Подбор цвета</a>
+        <a href="#paint-matching">Подбор автоэмали</a>
       </nav>
     </div>
   </header>
@@ -47,19 +47,19 @@
     </div>
   </section>
 
-  <section class="section color-guide" id="color-guide">
+  <section class="section color-guide" id="paint-matching">
     <div class="container color-guide-layout">
       <div class="color-guide-intro">
-        <p class="guide-kicker">Подбор автоэмали</p>
-        <h2 class="section-title">Как подготовиться<br>к подбору цвета</h2>
-        <p class="section-sub">Эти сведения помогут точнее обсудить нужный оттенок и материалы.</p>
-        <div class="hero-actions"><a href="#color-guide" class="btn">Подобрать материалы</a><a href="#products" class="btn btn-secondary">Смотреть продукцию</a></div>
+        <p class="guide-kicker">Профессиональный подбор</p>
+        <h2 class="section-title">Подбор автоэмали</h2>
+        <p class="section-sub">В AVDEX работают профессиональные колористы. Они подберут оттенок одним из трёх способов — с учётом состояния покрытия и требований к точности.</p>
+        <a href="#color-guide" class="btn">Подбор автоэмали</a>
       </div>
-      <ol class="color-steps">
-        <li><span class="step-number">01</span><div><h3>Подготовьте данные об автомобиле</h3><p>Марка, модель и год выпуска помогут начать консультацию.</p></div></li>
-        <li><span class="step-number">02</span><div><h3>Найдите код цвета, если он известен</h3><p>Код краски можно сообщить вместе с маркой автомобиля.</p></div></li>
-        <li><span class="step-number">03</span><div><h3>Опишите задачу</h3><p>Расскажите, какую деталь нужно окрасить и какие материалы вы ищете.</p></div></li>
-      </ol>
+      <div class="matching-methods">
+        <article class="method-card"><span class="step-number">01</span><h3>По оригинальному рецепту</h3><p>Колорист находит заводскую формулу по марке автомобиля и коду цвета.</p></article>
+        <article class="method-card"><span class="step-number">02</span><h3>С фотоспектрофотометром</h3><p>Прибор измеряет оттенок детали и помогает подобрать формулу с учётом текущего цвета покрытия.</p></article>
+        <article class="method-card method-card-featured"><span class="step-number">03</span><h3>С тестовым выкрасом</h3><p>Самый точный вариант: делаем пробный выкрас и визуально сверяем результат с автомобилем при подходящем освещении.</p></article>
+      </div>
     </div>
   </section>
 
@@ -78,8 +78,8 @@
 
         <div class="card product-card">
           <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-          <h3>Лаки и защитные покрытия</h3><span class="card-tag">Защита ЛКП</span>
-          <p>Акриловые и полиуретановые лаки, глянцевые и матовые финиши, керамические защиты и покрытия с эффектами.</p>
+          <h3>Лаки, защитные покрытия и полировальные составы</h3><span class="card-tag">Финиш и защита</span>
+          <p>Акриловые и полиуретановые лаки, керамические и защитные покрытия, полировальные пасты и круги для финишной обработки лакокрасочного покрытия.</p>
           <span class="product-tag">Финиш и защита</span>
         </div>
 
@@ -106,8 +106,8 @@
 
         <div class="card product-card">
           <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
-          <h3>Малярный инструмент</h3><span class="card-tag">Оборудование</span>
-          <p>Краскопульты, кисти, валики, ёмкости для смешивания, воронки, фильтры и прочий профессиональный инструмент.</p>
+          <h3>Малярный инструмент и сопутствующие товары</h3><span class="card-tag">Оборудование</span>
+          <p>Краскопульты, ёмкости для смешивания, воронки, фильтры и другие товары для профессиональной малярной работы.</p>
           <span class="product-tag">Инструменты</span>
         </div>
 
@@ -119,16 +119,15 @@
         </div>
 
         <div class="card product-card">
-          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.8L20 10l-6.1 1.2L12 17l-1.9-5.8L4 10l6.1-1.2L12 3z"/></svg></div>
-          <h3>Полировальные составы</h3><span class="card-tag">Финишная обработка</span>
-          <p>Полировальные пасты и круги, абразивные и защитные составы, финишная полировка и уход за лакокрасочным покрытием.</p>
-          <span class="product-tag">Полировка</span>
-        </div>
-      </div>
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a3 3 0 0 0-3 3v2H7a2 2 0 0 0-2 2v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3v-8a2 2 0 0 0-2-2h-2V6a3 3 0 0 0-3-3z"/><path d="M9 8h6M8 13h.01M16 13h.01"/></svg></div>
+          <h3>Средства индивидуальной защиты (СИЗ)</h3><span class="card-tag">Безопасность</span>
+          <p>Респираторы, малярные костюмы, защитные маски и перчатки для безопасной работы.</p>
+          <span class="product-tag">СИЗ</span>
+        </div></div>
     </div>
   </section>
 
-  <section class="section" id="color-guide"><div class="container"><h2 class="section-title">Как подготовиться к подбору цвета</h2><p class="section-sub">Чтобы подобрать автоэмаль точнее, подготовьте данные автомобиля и образец покрытия.</p><div class="guide-grid"><article class="card"><h3>1. Найдите код цвета</h3><p>Проверьте табличку автомобиля и запишите марку, модель, год выпуска и код краски.</p></article><article class="card"><h3>2. Покажите образец</h3><p>Если автомобиль выгорел или перекрашивался, привезите деталь или образец для сравнения оттенка.</p></article><article class="card"><h3>3. Опишите задачу</h3><p>Уточните тип покрытия и нужный объём — поможем подобрать совместимые материалы.</p></article></div></div></section>
+  <section class="section" id="color-guide"><div class="container"><h2 class="section-title">Как подготовиться к подбору цвета</h2><p class="section-sub">Чтобы подобрать автоэмаль точнее, подготовьте данные автомобиля и образец покрытия.</p><div class="guide-grid"><article class="card"><h3>1. Найдите код цвета</h3><p>Проверьте табличку автомобиля и запишите марку, модель, год выпуска и код краски.</p></article><article class="card"><h3>2. Покажите образец</h3><p>Если автомобиль выгорел или перекрашивался, привезите деталь или образец для сравнения оттенка.</p></article><article class="card"><h3>3. Опишите задачу</h3><p>Уточните тип покрытия и нужный объём — поможем подобрать совместимые материалы.</p></article></div><div class="guide-actions"><a class="btn" href="#contacts">Связаться с нами</a></div></div></section>
 
   <section class="section" id="about">
     <div class="container">
@@ -178,6 +177,17 @@
           <div class="label">Режим работы</div>
           <div class="value">Пн–Сб: 9:00–19:00<br>Вс: выходной</div>
         </div>
+      </div>
+      <div class="feedback-card">
+        <div class="feedback-copy"><p class="map-kicker">Обратная связь</p><h3>Оставьте контакты</h3><p>Укажите имя, телефон и электронную почту. Откроется ваше почтовое приложение с подготовленным письмом; отправка произойдёт после вашего подтверждения.</p></div>
+        <form class="feedback-form" id="feedback-form">
+          <label for="feedback-name">Имя</label><input id="feedback-name" name="name" autocomplete="name" required maxlength="100">
+          <label for="feedback-phone">Телефон</label><input id="feedback-phone" name="phone" type="tel" autocomplete="tel" required maxlength="30">
+          <label for="feedback-email">Электронная почта</label><input id="feedback-email" name="email" type="email" autocomplete="email" required maxlength="254">
+          <label class="consent-check"><input type="checkbox" name="consent" required><span>Я даю <a href="consent.html" target="_blank" rel="noopener">согласие на обработку персональных данных</a> для ответа на мой запрос.</span></label>
+          <button class="btn" type="submit">Подготовить письмо</button>
+          <p class="form-note" id="form-note" aria-live="polite">Данные не отправляются сайту автоматически: для отправки письма потребуется ваше подтверждение.</p>
+        </form>
       </div>
       <div class="map-card">
         <div class="map-copy">
