@@ -49,6 +49,6 @@ document.addEventListener("DOMContentLoaded", () => {
     ].join("\n");
     const note = document.querySelector("#form-note");
     if (note) note.textContent = "Откроется почтовое приложение. Проверьте письмо и нажмите «Отправить», чтобы передать данные AVDEX.";
-    window.location.href = "mailto:info@avdex.pro?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    window.location.href = "mailto:avdex2025@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
   });
 });
