@@ -258,3 +258,15 @@ body {
 .consent-check a { color: var(--accent-hover); }
 .feedback-form .btn { justify-self: start; cursor: pointer; border: 0; font: inherit; font-weight: 700; }
 @media (max-width: 768px) { .matching-methods, .feedback-card { grid-template-columns: 1fr; } .method-card { min-height: 0; } .feedback-card { padding: 20px; } }
+
+/* Keep the three AVDEX color matching methods readable side by side. */
+.color-guide-layout { display: block; }
+.color-guide-intro { max-width: 900px; margin-bottom: 30px; }
+.matching-methods { grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: stretch; }
+.method-card { min-width: 0; overflow-wrap: anywhere; }
+@media (max-width: 900px) {
+  .matching-methods { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 620px) {
+  .matching-methods { grid-template-columns: 1fr; }
+}
