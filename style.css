@@ -177,3 +177,17 @@ body {
 .hero .btn { margin: 0; }
 .btn-secondary { display: inline-flex; align-items: center; gap: 12px; padding: 13px 19px; color: var(--text); border: 1px solid var(--border); border-radius: 8px; text-decoration: none; font-weight: 600; transition: border-color .2s, color .2s, transform .15s; }
 .btn-secondary:hover { color: #fff; border-color: var(--accent); transform: translateY(-1px); }
+
+.color-guide { background: linear-gradient(135deg, #151c23, #11171d); }
+.color-guide-layout { display: grid; grid-template-columns: minmax(0,.9fr) minmax(0,1.1fr); gap: 48px; align-items: center; }
+.guide-kicker { margin-bottom: 12px; color: var(--accent); font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.color-guide-intro .section-title { margin-bottom: 16px; }
+.color-guide-intro .section-sub { margin-bottom: 24px; }
+.color-steps { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--border); }
+.color-steps li { display: grid; grid-template-columns: 42px 1fr; gap: 14px; padding: 18px 0; border-bottom: 1px solid var(--border); }
+.step-number { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .08em; }
+.color-steps h3 { margin: 0 0 5px; font-size: 16px; }
+.color-steps p { margin: 0; color: var(--text-muted); font-size: 14px; }
+@media (max-width: 768px) {
+  .color-guide-layout { grid-template-columns: 1fr; gap: 28px; }
+}
