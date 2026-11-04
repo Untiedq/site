@@ -239,3 +239,22 @@ body {
 .privacy-warning { margin: 22px 0; padding: 16px 18px; border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; background: rgba(255,107,26,.1); color: #f0d4c4; font-size: 13px; line-height: 1.7; }
 .privacy-back { display: inline-block; color: var(--accent-hover); font-weight: 700; text-decoration: none; }
 .privacy-back:hover { text-decoration: underline; }
+
+/* Color selection methods */
+.matching-methods { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; margin: 28px 0; }
+.method-card { min-height: 100%; padding: 24px; border: 1px solid var(--border); border-radius: 12px; background: var(--bg-2); }
+.method-card h3 { margin: 14px 0 8px; font-size: 18px; }
+.method-card p { color: var(--text-muted); font-size: 14px; }
+.method-card-featured { border-color: var(--accent); box-shadow: inset 0 3px 0 var(--accent); }
+.guide-actions { margin-top: 26px; }
+.feedback-card { display: grid; grid-template-columns: .8fr 1.2fr; gap: 28px; margin: 30px 0; padding: 28px; border: 1px solid var(--border); border-radius: 12px; background: var(--bg-2); }
+.feedback-copy h3 { margin: 4px 0 10px; font-size: 22px; }
+.feedback-copy p:last-child, .form-note { color: var(--text-muted); font-size: 13px; }
+.feedback-form { display: grid; gap: 9px; }
+.feedback-form label:not(.consent-check) { color: var(--text-muted); font-size: 13px; }
+.feedback-form input:not([type="checkbox"]) { width: 100%; min-height: 44px; padding: 10px 12px; border: 1px solid var(--border); border-radius: 7px; background: var(--bg); color: var(--text); font: inherit; }
+.consent-check { display: flex; align-items: flex-start; gap: 10px; margin: 6px 0; color: var(--text-muted); font-size: 13px; }
+.consent-check input { margin-top: 4px; accent-color: var(--accent); }
+.consent-check a { color: var(--accent-hover); }
+.feedback-form .btn { justify-self: start; cursor: pointer; border: 0; font: inherit; font-weight: 700; }
+@media (max-width: 768px) { .matching-methods, .feedback-card { grid-template-columns: 1fr; } .method-card { min-height: 0; } .feedback-card { padding: 20px; } }
