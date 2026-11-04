@@ -172,3 +172,8 @@ body {
   .menu-toggle { padding: 6px 10px; border: 1px solid var(--border); border-radius: 7px; }
   .menu-toggle:focus-visible { outline-offset: 3px; }
 }
+
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.hero .btn { margin: 0; }
+.btn-secondary { display: inline-flex; align-items: center; gap: 12px; padding: 13px 19px; color: var(--text); border: 1px solid var(--border); border-radius: 8px; text-decoration: none; font-weight: 600; transition: border-color .2s, color .2s, transform .15s; }
+.btn-secondary:hover { color: #fff; border-color: var(--accent); transform: translateY(-1px); }
