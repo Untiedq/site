@@ -286,3 +286,15 @@ body {
 .brand-dealer strong { color: var(--accent-hover); font-size: clamp(17px,2.3vw,24px); }
 .brand-dealer span { color: var(--text-muted); font-size: 10px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
 .policy-links a { color: var(--accent-hover); }
+
+.dealer-showcase { margin-top: 40px; padding: 30px; border: 1px solid rgba(255,107,26,.4); border-radius: 14px; background: linear-gradient(145deg,rgba(255,107,26,.08),var(--bg-2) 58%); }
+.dealer-showcase > .section-title { margin-bottom: 8px; font-size: clamp(21px,2.4vw,28px); }
+.dealer-showcase > .section-sub { margin-bottom: 22px; font-size: 15px; }
+.dealer-brand-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; }
+.dealer-brand-card { padding: 22px; border: 1px solid var(--border); border-radius: 11px; background: rgba(15,20,25,.74); }
+.dealer-brand-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 15px; }
+.dealer-brand-mark { color: var(--accent-hover); font-size: clamp(22px,3vw,30px); font-weight: 900; letter-spacing: .06em; line-height: 1.1; overflow-wrap: anywhere; }
+.dealer-brand-heading span { padding: 5px 9px; border: 1px solid rgba(255,107,26,.45); border-radius: 999px; color: var(--accent-hover); font-size: 10px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.dealer-brand-card p { margin: 0 0 14px; color: var(--text-muted); font-size: 14px; }
+.dealer-brand-card a { color: var(--accent-hover); font-size: 13px; font-weight: 700; text-underline-offset: 4px; }
+@media (max-width: 680px) { .dealer-brand-grid { grid-template-columns: 1fr; } .dealer-showcase { padding: 20px; } }
