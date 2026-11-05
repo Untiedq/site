@@ -238,9 +238,9 @@ body {
 .privacy-main { max-width: 900px; padding-top: 48px; padding-bottom: 80px; }
 .privacy-page .privacy-main a,
 .privacy-page .privacy-main a:link,
-.privacy-page .privacy-main a:visited,
+.privacy-page .privacy-main a:visited { color: #fff; text-decoration-color: rgba(255,255,255,.5); text-underline-offset: 3px; }
 .privacy-page .privacy-main a:hover,
-.privacy-page .privacy-main a:focus-visible { color: #fff; text-decoration-color: rgba(255,255,255,.72); text-underline-offset: 3px; }
+.privacy-page .privacy-main a:focus-visible { color: var(--accent-hover); }
 .privacy-main h1 { margin: 16px 0 22px; font-size: clamp(32px,5vw,48px); line-height: 1.1; }
 .privacy-main h2 { margin: 30px 0 10px; font-size: 21px; }
 .privacy-main p, .privacy-main li { color: #c1c8cd; font-size: 14px; line-height: 1.8; }
