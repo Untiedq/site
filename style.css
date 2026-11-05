@@ -306,3 +306,9 @@ body {
 .dealer-brand-card p { margin: 0 0 14px; color: var(--text-muted); font-size: 14px; }
 .dealer-brand-card a { color: var(--accent-hover); font-size: 13px; font-weight: 700; text-underline-offset: 4px; }
 @media (max-width: 680px) { .dealer-brand-grid { grid-template-columns: 1fr; } .dealer-showcase { padding: 20px; } }
+
+
+/* AVDEX page refinements */
+.method-heading { display: flex; align-items: center; gap: 10px; min-height: 18px; }
+.method-level { color: var(--text-muted); font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.product-card:hover { border-color: var(--border); transform: none; }

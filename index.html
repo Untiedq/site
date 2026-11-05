@@ -24,9 +24,9 @@
       </a>
       <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-nav">☰</button>
       <nav class="nav" id="main-nav" aria-label="Основная навигация">
+        <a href="#about">О магазине</a>
         <a href="#paint-matching">Подбор автоэмали</a>
         <a href="#products">Продукция</a>
-        <a href="#about">О магазине</a>
         <a href="#contacts">Контакты</a>
       </nav>
     </div>
@@ -35,7 +35,6 @@
   <main id="main">
   <section class="hero" id="top">
     <div class="container">
-      <p class="hero-kicker">Магазин AVDEX</p>
       <h1>Автоэмали и материалы для <span>кузовного ремонта</span></h1>
       <p>Всё необходимое для профессиональной покраски и восстановления кузова: эмали, лаки, грунты, абразивы и малярный инструмент. Поможем подобрать цвет и материалы под задачу.</p>
       <div class="hero-actions">
@@ -45,18 +44,44 @@
     </div>
   </section>
 
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">О магазине AVDEX</h2>
+      <p class="section-sub">Более 20 лет опыта в малярно-кузовной отрасли. Работаем с частными мастерами и профессиональными СТО, помогаем подобрать материалы под задачу и бюджет.</p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Широкий ассортимент</h3>
+          <p>Всё для кузовного ремонта в одном месте — от базовых эмалей до полировальных составов.</p>
+        </div>
+        <div class="card">
+          <h3>Профессиональные консультации</h3>
+          <p>Поможем разобраться в материалах, совместимости и технологии нанесения.</p>
+        </div>
+        <div class="card">
+          <h3>Точный подбор цвета</h3>
+          <p>Подбор рецептур по коду автомобиля и колеровка эмалей под оригинальный цвет.</p>
+        </div>
+        <div class="card">
+          <h3>Работа с юридическими лицами</h3>
+          <p>Гибкие условия и документы для СТО, автомастерских и кузовных цехов.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="section color-guide" id="paint-matching">
     <div class="container color-guide-layout">
       <div class="color-guide-intro">
         <p class="guide-kicker">Профессиональный подбор</p>
-        <h2 class="section-title">Подбор автоэмали</h2>
+        <h2 class="section-title">Автоэмали</h2>
         <p class="section-sub">В AVDEX работают профессиональные колористы. Они подберут оттенок одним из трёх способов — с учётом состояния покрытия и требований к точности.</p>
         
       </div>
       <div class="matching-methods">
-        <article class="method-card"><span class="step-number">01</span><h3>По оригинальному рецепту</h3><p>Колорист находит заводскую формулу по марке автомобиля и коду цвета.</p></article>
-        <article class="method-card"><span class="step-number">02</span><h3>С фотоспектрофотометром</h3><p>Прибор измеряет оттенок детали и помогает подобрать формулу с учётом текущего цвета покрытия.</p></article>
-        <article class="method-card method-card-featured"><span class="step-number">03</span><h3>С тестовым выкрасом</h3><p>Самый точный вариант: делаем пробный выкрас и визуально сверяем результат с автомобилем при подходящем освещении.</p></article>
+        <article class="method-card"><div class="method-heading"><span class="step-number">01</span><span class="method-level">Базовый</span></div><h3>По оригинальному рецепту</h3><p>Колорист находит заводскую формулу по марке автомобиля и коду цвета.</p></article>
+        <article class="method-card"><div class="method-heading"><span class="step-number">02</span><span class="method-level">Продвинутый</span></div><h3>С фотоспектрофотометром</h3><p>Прибор измеряет оттенок детали и помогает подобрать формулу с учётом текущего цвета покрытия.</p></article>
+        <article class="method-card method-card-featured"><div class="method-heading"><span class="step-number">03</span><span class="method-level">Лучший выбор</span></div><h3>С тестовым выкрасом</h3><p>Самый точный вариант: делаем пробный выкрас и визуально сверяем результат с автомобилем при подходящем освещении.</p></article>
       </div>
       <div class="prep-guide" id="color-guide">
         <p class="guide-kicker">Перед подбором</p>
@@ -166,12 +191,12 @@
         <p class="section-sub">Мы являемся дилерами CETRON и PROCOLOREAST.</p>
         <div class="dealer-brand-grid">
           <article class="dealer-brand-card">
-            <div class="dealer-brand-heading"><strong class="dealer-brand-mark">CETRON</strong><span>Дилер AVDEX</span></div>
+            <div class="dealer-brand-heading"><strong class="dealer-brand-mark">CETRON</strong></div>
             <p>Ассортимент охватывает несколько этапов кузовного ремонта: абразивы, маскировку, полировку, СИЗ и малярный инструмент. Производитель указывает, что контролирует продукцию и адаптирует её к условиям региона. Это позволяет подобрать расходные материалы и инструменты одной марки для подготовки, окраски и финишной обработки.</p>
             <a href="https://cetron.by/" target="_blank" rel="noopener noreferrer">О бренде CETRON</a>
           </article>
           <article class="dealer-brand-card">
-            <div class="dealer-brand-heading"><strong class="dealer-brand-mark">PROCOLOREAST</strong><span>Дилер AVDEX</span></div>
+            <div class="dealer-brand-heading"><strong class="dealer-brand-mark">PROCOLOREAST</strong></div>
             <p>PROCOLOREAST — итальянский бренд материалов для кузовного ремонта, выпускаемых компанией INFOCOMP S.R.L. Ассортимент включает компоненты для подготовки поверхности и нанесения лакокрасочного покрытия: грунты, пигменты и биндеры, эмали, лаки, отвердители и разбавители. Такая линейка позволяет подобрать материалы для разных этапов ремонта и выстроить совместимую систему покрытия. Подбор и применение конкретных компонентов выполняются по их технической документации.</p>
           </article>
         </div>
@@ -182,31 +207,7 @@
 
 
 
-  <section class="section" id="about">
-    <div class="container">
-      <h2 class="section-title">О магазине AVDEX</h2>
-      <p class="section-sub">Более 20 лет опыта в малярно-кузовной отрасли. Работаем с частными мастерами и профессиональными СТО, помогаем подобрать материалы под задачу и бюджет.</p>
 
-      <div class="grid">
-        <div class="card">
-          <h3>Широкий ассортимент</h3>
-          <p>Всё для кузовного ремонта в одном месте — от базовых эмалей до полировальных составов.</p>
-        </div>
-        <div class="card">
-          <h3>Профессиональные консультации</h3>
-          <p>Поможем разобраться в материалах, совместимости и технологии нанесения.</p>
-        </div>
-        <div class="card">
-          <h3>Точный подбор цвета</h3>
-          <p>Подбор рецептур по коду автомобиля и колеровка эмалей под оригинальный цвет.</p>
-        </div>
-        <div class="card">
-          <h3>Работа с юридическими лицами</h3>
-          <p>Гибкие условия и документы для СТО, автомастерских и кузовных цехов.</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <section class="section" id="contacts">
     <div class="container">
@@ -242,17 +243,7 @@
           <iframe src="https://yandex.ru/map-widget/v1/?z=17&amp;ol=biz&amp;oid=193976392465" title="Яндекс Карты: AVDEX, Нижний Новгород, ул. Новикова-Прибоя, 4, корп. 6" loading="lazy" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="feedback-card">
-        <div class="feedback-copy"><p class="map-kicker">Обратная связь</p><h3>Оставьте контакты</h3><p>Укажите имя, телефон и электронную почту. Откроется ваше почтовое приложение с подготовленным письмом; отправка произойдёт после вашего подтверждения.</p></div>
-        <form class="feedback-form" id="feedback-form">
-          <label for="feedback-name">Имя</label><input id="feedback-name" name="name" autocomplete="name" required maxlength="100">
-          <label for="feedback-phone">Телефон</label><input id="feedback-phone" name="phone" type="tel" autocomplete="tel" required maxlength="30">
-          <label for="feedback-email">Электронная почта</label><input id="feedback-email" name="email" type="email" autocomplete="email" required maxlength="254">
-          <label class="consent-check"><input type="checkbox" name="consent" required><span>Я даю <a href="consent.html" target="_blank" rel="noopener">согласие на обработку персональных данных</a> для ответа на мой запрос.</span></label>
-          <button class="btn" type="submit">Подготовить письмо</button>
-          <p class="form-note" id="form-note" aria-live="polite">Данные не отправляются сайту автоматически: для отправки письма потребуется ваше подтверждение.</p>
-        </form>
-      </div>
+
     </div>
   </section>
 

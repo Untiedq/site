@@ -32,23 +32,3 @@
   });
 })();
 
-document.addEventListener("DOMContentLoaded", () => {
-  const form = document.querySelector("#feedback-form");
-  if (!form) return;
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    if (!form.reportValidity()) return;
-    const data = new FormData(form);
-    const subject = "Запрос на обратную связь AVDEX";
-    const body = [
-      "Имя: " + data.get("name"),
-      "Телефон: " + data.get("phone"),
-      "Электронная почта: " + data.get("email"),
-      "",
-      "Согласие на обработку данных дано: да"
-    ].join("\n");
-    const note = document.querySelector("#form-note");
-    if (note) note.textContent = "Откроется почтовое приложение. Проверьте письмо и нажмите «Отправить», чтобы передать данные AVDEX.";
-    window.location.href = "mailto:avdex2025@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
-  });
-});
