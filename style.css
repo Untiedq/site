@@ -236,8 +236,11 @@ body {
 .privacy-header { padding: 18px 0; background: rgba(15,20,25,.96); border-bottom: 1px solid var(--border); }
 .privacy-header .logo { width: fit-content; }
 .privacy-main { max-width: 900px; padding-top: 48px; padding-bottom: 80px; }
-.privacy-main a, .privacy-main a:visited { color: #fff; text-decoration-color: rgba(255,255,255,.7); text-underline-offset: 3px; }
-.privacy-main a:hover, .privacy-main a:focus-visible { color: #fff; text-decoration-color: #fff; }
+.privacy-page .privacy-main a,
+.privacy-page .privacy-main a:link,
+.privacy-page .privacy-main a:visited,
+.privacy-page .privacy-main a:hover,
+.privacy-page .privacy-main a:focus-visible { color: #fff; text-decoration-color: rgba(255,255,255,.72); text-underline-offset: 3px; }
 .privacy-main h1 { margin: 16px 0 22px; font-size: clamp(32px,5vw,48px); line-height: 1.1; }
 .privacy-main h2 { margin: 30px 0 10px; font-size: 21px; }
 .privacy-main p, .privacy-main li { color: #c1c8cd; font-size: 14px; line-height: 1.8; }
